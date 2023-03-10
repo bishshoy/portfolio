@@ -19,17 +19,17 @@ const CardIcon = ({ identifier }) => {
 const contents = {
   LinkedIn: {
     icon: <FaIcons.FaLinkedin />,
-    link: 'linkedin.com/in/bishshoy',
+    link: 'https://linkedin.com/in/bishshoy',
     color: 'blue-700',
   },
   Scholar: {
     icon: <SiIcons.SiGooglescholar />,
-    link: 'scholar.google.com/citations?user=xFSjMNsAAAAJ',
+    link: 'https://scholar.google.com/citations?user=xFSjMNsAAAAJ',
     color: 'blue-500',
   },
   Github: {
     icon: <FaIcons.FaGithub />,
-    link: 'github.com/bishshoy',
+    link: 'https://github.com/bishshoy',
     color: 'gray-700',
   },
   Email: {
