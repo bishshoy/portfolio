@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import { Dialog, Popover } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import Text from './Text';
 
-export default function Header() {
+const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const items = ['SKILLS', 'PROJECTS', 'TIMELINE'];
   const ids = ['#skills', '#projects', '#timeline'];
@@ -71,4 +70,6 @@ export default function Header() {
       </Dialog>
     </header>
   );
-}
+};
+
+export default Header;

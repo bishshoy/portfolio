@@ -6,84 +6,79 @@ import * as DiIcons from 'react-icons/di';
 import { Icon } from '@iconify/react';
 
 import SkillsIcon from './SkillsIcon';
-import SkillsText from './SkillsText';
+import SkillsText from './BulletedList';
 
 import jaxicon from '../images/JAX.png';
 
 const Card = ({ identifier }) => {
-  let icons, texts, lines;
-  switch (identifier) {
-    case 'set1':
-      icons = [
-        SiIcons.SiPytorch,
-        SiIcons.SiTensorflow,
-        SiIcons.SiOpencv,
-        jaxicon,
-      ];
-      texts = ['PyTorch', 'TensorFlow', 'OpenCV', 'JAX'];
-      lines = [
-        '5 years of PyTorch experience',
-        '1 year of TensorFlow',
-        'Implemented numerous deep learning models',
-        'Published 6 research papers till date with many more under review',
-      ];
-      break;
-    case 'set2':
-      icons = [
-        FaIcons.FaPython,
-        SiIcons.SiCplusplus,
-        SiIcons.SiWolframmathematica,
-        <Icon icon='file-icons:matlab' className='inline-block text-4xl' />,
-      ];
-      texts = ['Python', 'C / C++', 'Mathematica', 'MATLAB'];
-      lines = [
-        'Worked with C / C++ at Nvidia and prior to it',
-        '6 years of Python during PhD',
-      ];
-      break;
-    case 'set3':
-      icons = [
-        FaIcons.FaRegFileImage,
-        SiIcons.SiScikitlearn,
-        SiIcons.SiNumpy,
-        SiIcons.SiPowershell,
-      ];
-      texts = ['PIL', 'scikit-learn', 'Numpy', 'bash'];
-      lines = [
-        'Proficient in a variety of Python libraries',
-        'and shell scripting for automation',
-      ];
-      break;
-    case 'set4':
-      icons = [
-        DiIcons.DiGitBranch,
-        FaIcons.FaDocker,
-        FaIcons.FaLinux,
-        <Icon icon='file-icons:latex' className='inline-block text-4xl' />,
-      ];
-      texts = ['git', 'Docker', 'Linux', 'LaTeX'];
-      lines = [
-        'Proficient in git',
-        'Have used Docker containers for deployment',
-        'Proficient in LaTeX for research writing',
-        'Can troubleshoot Linux systems',
-        'Built a custom Deep Learning server with 4x RTX 3090 GPUs',
-      ];
-      break;
-  }
+  const { icons, texts, lines } = contents[identifier];
 
   return (
     <div className='flex flex-wrap justify-center max-w-6xl my-2'>
       <div className='flex flex-wrap justify-center w-full max-w-lg my-2 md:w-1/2'>
-        {icons.map((icon, index) => {
-          return <SkillsIcon icon={icon} text={texts[index]} />;
-        })}
+        {icons.map((icon, index) => (
+          <SkillsIcon icon={icon} text={texts[index]} />
+        ))}
       </div>
       <div className='flex flex-wrap w-full my-2 mt-8 md:w-1/2'>
         <SkillsText lines={lines} />
       </div>
     </div>
   );
+};
+
+const contents = {
+  set1: {
+    icons: [SiIcons.SiPytorch, SiIcons.SiTensorflow, SiIcons.SiOpencv, jaxicon],
+    texts: ['PyTorch', 'TensorFlow', 'OpenCV', 'JAX'],
+    lines: [
+      '5 years of PyTorch experience',
+      'Implemented numerous deep learning models',
+      'Know a little bit of TensorFlow v2 and JAX as well',
+    ],
+  },
+  set2: {
+    icons: [
+      FaIcons.FaPython,
+      SiIcons.SiCplusplus,
+      SiIcons.SiWolframmathematica,
+      <Icon icon='file-icons:matlab' className='inline-block text-4xl' />,
+    ],
+    texts: ['Python', 'C / C++', 'Mathematica', 'MATLAB'],
+    lines: [
+      'Built low-level libraries in C++ at Nvidia',
+      'Used Python extensively during PhD',
+    ],
+  },
+  set3: {
+    icons: [
+      FaIcons.FaRegFileImage,
+      SiIcons.SiScikitlearn,
+      SiIcons.SiNumpy,
+      SiIcons.SiPowershell,
+    ],
+    texts: ['PIL', 'scikit-learn', 'Numpy', 'bash'],
+    lines: [
+      'Proficient in a variety of Python libraries',
+      'and shell scripting for automation',
+    ],
+  },
+  set4: {
+    icons: [
+      DiIcons.DiGitBranch,
+      FaIcons.FaDocker,
+      FaIcons.FaLinux,
+      <Icon icon='file-icons:latex' className='inline-block text-4xl' />,
+    ],
+    texts: ['git', 'Docker', 'Linux', 'LaTeX'],
+    lines: [
+      'Proficient in git',
+      'Have used Docker containers for deployment',
+      'Proficient in LaTeX for research writing',
+      'Can troubleshoot Linux systems',
+      'Built a custom Deep Learning server with 4x RTX 3090 GPUs',
+    ],
+  },
 };
 
 export default Card;

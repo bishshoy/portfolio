@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SkillsIcon = props => {
-  let icon = <props.icon className='inline-block text-4xl' />;
+  let icon;
   if (typeof props.icon === 'string') {
     icon = (
       <img
@@ -12,6 +12,8 @@ const SkillsIcon = props => {
     );
   } else if (typeof props.icon === 'object') {
     icon = props.icon;
+  } else {
+    icon = <props.icon className='inline-block text-4xl' />;
   }
 
   return (

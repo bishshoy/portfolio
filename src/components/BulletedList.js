@@ -1,13 +1,11 @@
 import React from 'react';
 
-const SkillsText = ({ lines }) => {
+const BulletedList = ({ lines }) => {
   return (
     <div className='text-base leading-relaxed text-left text-gray-600'>
       {lines.map(line => (
         <div>
-          <span className='mr-4' style={{ fontSize: 16 }}>
-            &#x25CF;
-          </span>
+          <span className='mr-4 text-xs align-text-top'>&#x25CF;</span>
           {line}
         </div>
       ))}
@@ -15,4 +13,4 @@ const SkillsText = ({ lines }) => {
   );
 };
 
-export default SkillsText;
+export default BulletedList;
