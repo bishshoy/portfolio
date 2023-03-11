@@ -25,7 +25,7 @@ function App() {
         className='flex flex-col items-center justify-center p-2'
         style={{ background: '#edf2f7' }}
       >
-        <div data-aos='fade-down' data-aos-duration='800'>
+        <div className='pt-20' data-aos='fade-down' data-aos-duration='800'>
           <Card />
         </div>
         <div data-aos='fade-up' data-aos-duration='800' data-aos-delay='400'>

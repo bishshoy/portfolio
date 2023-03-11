@@ -8,14 +8,14 @@ const Header = () => {
   const ids = ['#skills', '#projects', '#timeline'];
 
   return (
-    <header className='bg-white'>
+    <header className='fixed top-0 left-0 right-0 z-10 bg-white'>
       <nav
         className='flex items-center justify-between p-6 mx-auto max-w-7xl lg:px-8'
         aria-label='Global'
       >
-        <div className='flex text-sm leading-6 text-gray-600 lg:flex-1'>
+        <a className='flex text-sm leading-6 text-gray-600 lg:flex-1' href='#'>
           BISHSHOY DAS
-        </div>
+        </a>
         <div className='flex lg:hidden'>
           <button
             type='button'
@@ -59,6 +59,7 @@ const Header = () => {
                   <a
                     href={ids[index]}
                     className='block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-gray-50'
+                    onClick={() => setMobileMenuOpen(false)}
                   >
                     {item}
                   </a>

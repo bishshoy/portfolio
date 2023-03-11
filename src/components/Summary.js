@@ -19,7 +19,7 @@ const Background = () => {
           </div>
         </div>
         <div className='w-full mx-auto sm:w-1/2'>
-          <div className='text-lg font-semibold leading-relaxed text-left text-gray-700 sm:text-2xl'>
+          <div className='mt-3 text-lg font-semibold leading-relaxed text-left text-gray-700 sm:mt-0 sm:text-2xl'>
             <span className='mr-4 align-text-top' style={{ fontSize: 16 }}>
               &#x25CF;
             </span>
