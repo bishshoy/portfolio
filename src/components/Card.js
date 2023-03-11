@@ -15,15 +15,17 @@ const Card = () => {
         <p className='mt-1 text-xl font-semibold text-gray-900 sm:mt-4 sm:text-2xl'>
           {'Bishshoy Das'}
         </p>
-        <p className='inline-block w-auto mt-8 mb-2 text-base text-gray-600 sm:mt-10'>
+        <p className='inline-block w-auto mt-5 mb-2 sm:mt-10'>
           <a
-            className='p-3 transition-all duration-100 ease-in bg-gray-200 border border-gray-400 rounded-full sm:p-3 hover:text-white hover:bg-gray-800'
+            className='px-4 py-2 transition-all duration-100 ease-in bg-gray-200 border border-gray-400 rounded-full sm:p-3 hover:text-white hover:bg-gray-800'
             href='https://github.com/bishshoy/bishshoy/raw/main/Resume.pdf'
           >
-            <button className='text-sm sm:text-base'>DOWNLOAD CV</button>
+            <button className='text-xs font-medium text-gray-600 sm:font-normal sm:text-base'>
+              DOWNLOAD CV
+            </button>
           </a>
         </p>
-        <div className='flex flex-row justify-center mt-4 sm:mt-10'>
+        <div className='flex flex-row justify-center mt-2 sm:mt-10'>
           <CardIcon identifier={'LinkedIn'} />
           <CardIcon identifier={'Scholar'} />
           <CardIcon identifier={'Github'} />

@@ -8,7 +8,7 @@ const Timeline = () => {
       style={{ background: '#edf2f7' }}
     >
       <div className='container w-full mx-auto bg-gray-200'>
-        <div className='relative p-10 overflow-hidden wrap'>
+        <div className='relative py-10 overflow-hidden sm:p-10 wrap'>
           <div
             className='absolute h-full border border-gray-700 border-2-2 border-opacity-20'
             style={{ left: '50%' }}

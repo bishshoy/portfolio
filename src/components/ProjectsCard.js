@@ -12,10 +12,10 @@ const ProjectsCard = ({ identifier }) => {
         {contents[identifier].title}
       </h1>
       <div className='flex flex-col'>
-        <p className='px-4 mx-auto text-sm font-semibold leading-relaxed text-left text-gray-600 sm:text-md'>
+        <p className='max-w-2xl px-4 mx-auto text-sm font-medium leading-relaxed text-left text-gray-600 sm:text-base'>
           {contents[identifier].authors}
         </p>
-        <p className='px-4 mx-auto my-3 font-semibold leading-relaxed text-right text-gray-600 text-md sm:text-lg'>
+        <p className='px-4 mx-auto my-3 font-semibold leading-relaxed text-right text-gray-600 sm:text-lg'>
           {contents[identifier].venue}
         </p>
         <div className='flex flex-row justify-center max-w-lg mx-auto'>
@@ -43,7 +43,7 @@ const ProjectsCard = ({ identifier }) => {
       </div>
       <hr className='my-4' />
       <img src={contents[identifier].image} alt={identifier} />
-      <p className='mt-10 mb-5 text-base leading-relaxed text-justify text-gray-600'>
+      <p className='mt-10 mb-5 leading-relaxed text-justify text-gray-600'>
         {contents[identifier].abstract}
       </p>
     </div>

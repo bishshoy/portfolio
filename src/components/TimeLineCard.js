@@ -47,7 +47,7 @@ const TimeLineCard = ({ title, description, date, side }) => {
           className={`order-1 w-5/12 px-6 py-4 bg-${cardColor} rounded-lg shadow-xl`}
         >
           <h3
-            className={`mb-3 font-semibold text-md md:text-xl md:font-bold text-${textColor}`}
+            className={`mb-3 font-semibold md:text-xl md:font-bold text-${textColor}`}
           >
             {title}
           </h3>
