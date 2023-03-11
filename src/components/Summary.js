@@ -11,7 +11,7 @@ const Background = () => {
             </span>
             PhD - IIT Delhi (thesis submitted)
           </div>
-          <div className='text-lg leading-relaxed text-left text-gray-700'>
+          <div className='mt-3 text-lg leading-relaxed text-left text-gray-700'>
             <span className='mr-4 align-text-top' style={{ fontSize: 14 }}>
               &#x25CF;
             </span>
@@ -25,17 +25,23 @@ const Background = () => {
             </span>
             Ex - Nvidia System Software Engineer
           </div>
+          <div className='mt-3 text-lg leading-relaxed text-left text-gray-700'>
+            <span className='mr-4 align-text-top' style={{ fontSize: 14 }}>
+              &#x25CF;
+            </span>
+            Visiting Researcher - Hiroshima University, Japan
+          </div>
         </div>
       </div>
       <div className='flex flex-col max-w-4xl mx-auto mt-12 justify-left'>
-        <div className='text-lg leading-relaxed text-left text-gray-700'>
+        <div className='mt-1 text-lg leading-relaxed text-left text-gray-700'>
           <span className='mr-4 align-text-top' style={{ fontSize: 14 }}>
             &#x25CF;
           </span>
           PhD Thesis: Improvements in Learning Capacities of Convoluational
           Neural Networks
         </div>
-        <div className='text-lg leading-relaxed text-left text-gray-700'>
+        <div className='mt-2 text-lg leading-relaxed text-left text-gray-700'>
           <span className='mr-4 align-text-top' style={{ fontSize: 14 }}>
             &#x25CF;
           </span>
@@ -43,7 +49,7 @@ const Background = () => {
         </div>
       </div>
       <div className='flex flex-col max-w-4xl mx-auto mt-12 justify-left'>
-        <div className='text-lg leading-relaxed text-left text-gray-700'>
+        <div className='mt-1 text-lg leading-relaxed text-left text-gray-700'>
           <span className='mr-4 align-text-top' style={{ fontSize: 14 }}>
             &#x25CF;
           </span>
