@@ -5,7 +5,7 @@ import profile from '../images/IMG_7086.jpg';
 
 const Card = () => {
   return (
-    <div className='flex flex-col max-w-screen-md px-6 pt-10 pb-2 mt-4 bg-white shadow-xl sm:mt-10 sm:py-12 sm:px-16 rounded-xl'>
+    <div className='flex flex-col max-w-screen-md px-6 pt-10 pb-4 mt-4 bg-white shadow-xl sm:mt-10 sm:pb-12 sm:pt-16 sm:px-16 rounded-xl'>
       <img
         className='w-32 mx-auto shadow-xl sm:w-48 rounded-xl'
         src={profile}
