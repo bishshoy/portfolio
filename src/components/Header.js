@@ -8,7 +8,7 @@ const Header = () => {
   const ids = ['#skills', '#projects', '#timeline'];
 
   return (
-    <header className='fixed top-0 left-0 right-0 z-10 bg-white'>
+    <header className='sticky top-0 z-50 bg-white'>
       <nav
         className='flex items-center justify-between p-4 mx-auto lg:py-6 max-w-7xl lg:px-8'
         aria-label='Global'
