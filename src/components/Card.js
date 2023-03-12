@@ -17,12 +17,10 @@ const Card = () => {
         </p>
         <p className='inline-block w-auto mt-5 mb-2 sm:mt-10'>
           <a
-            className='px-4 py-2 transition-all duration-100 ease-in bg-gray-200 border border-gray-400 rounded-full sm:p-3 hover:text-white hover:bg-gray-800'
+            className='px-4 py-2 text-xs font-medium text-gray-600 transition-all duration-100 ease-in bg-gray-200 border border-gray-400 rounded-full hover:text-white sm:p-3 hover:bg-gray-800 sm:font-normal sm:text-base'
             href='https://github.com/bishshoy/bishshoy/raw/main/Resume.pdf'
           >
-            <button className='text-xs font-medium text-gray-600 sm:font-normal sm:text-base'>
-              DOWNLOAD CV
-            </button>
+            DOWNLOAD CV
           </a>
         </p>
         <div className='flex flex-row justify-center mt-2 sm:mt-10'>

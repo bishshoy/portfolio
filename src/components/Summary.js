@@ -43,7 +43,7 @@ const Background = () => {
           <a className='text-blue-700 underline' href='#projects'>
             papers
           </a>{' '}
-          with 3 more under review
+          and 3 more under review
         </div>
         <div className='leading-relaxed text-left text-gray-700'>
           <span className='ml-8 mr-4 text-xs align-text-top'>&#x25CB;</span>

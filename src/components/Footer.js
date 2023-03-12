@@ -4,6 +4,9 @@ const Footer = () => {
   return (
     <div className='flex flex-col items-center justify-center w-full h-32 p-2'>
       <p className='text-xs text-gray-600'>
+        This website is entirely designed by me.
+      </p>
+      <p className='text-xs text-gray-600'>
         © 2023 - Built with{' '}
         <a
           href='https://reactjs.org/'
@@ -20,11 +23,8 @@ const Footer = () => {
           rel='noopener noreferrer'
           className='text-blue-500'
         >
-          Tailwind
+          Tailwind CSS
         </a>
-      </p>
-      <p className='text-xs text-gray-600'>
-        This website is entirely designed by me.
       </p>
     </div>
   );

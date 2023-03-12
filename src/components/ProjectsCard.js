@@ -24,24 +24,20 @@ const ProjectsCard = ({ identifier }) => {
         </p>
         <div className='flex flex-row justify-center max-w-lg mx-auto'>
           <a
-            className='mx-auto'
+            className='px-4 py-2 mx-3 my-3 text-sm text-white bg-blue-500 rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'
             href={contents[identifier].link}
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-4 py-2 mx-4 mt-4 text-sm text-white bg-blue-500 rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>
-              Paper
-            </button>
+            Paper
           </a>
           <a
-            className='mx-auto'
+            className='px-4 py-2 mx-3 my-3 text-sm text-white bg-blue-500 rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'
             href={contents[identifier].code}
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-4 py-2 mx-4 mt-4 text-sm text-white bg-blue-500 rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>
-              Code
-            </button>
+            Code
           </a>
         </div>
       </div>
