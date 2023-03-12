@@ -32,9 +32,9 @@ const contents = {
     icons: [SiIcons.SiPytorch, SiIcons.SiTensorflow, SiIcons.SiOpencv, jaxicon],
     texts: ['PyTorch', 'TensorFlow', 'OpenCV', 'JAX'],
     lines: [
-      '5 years of PyTorch experience',
+      '5+ years of PyTorch experience',
       'Implemented numerous deep learning models',
-      'Know a little bit of TensorFlow v2 and JAX as well',
+      'Know a little bit of TensorFlowV2 and JAX as well',
     ],
   },
   set2: {
@@ -46,8 +46,8 @@ const contents = {
     ],
     texts: ['Python', 'C / C++', 'Mathematica', 'MATLAB'],
     lines: [
+      'Used Python extensively during PhD, 6+ years of experience',
       'Built low-level libraries in C++ at Nvidia',
-      'Used Python extensively during PhD',
     ],
   },
   set3: {
