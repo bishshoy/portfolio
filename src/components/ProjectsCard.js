@@ -8,7 +8,10 @@ import depthEstImage from '../images/depthestimation.png';
 const ProjectsCard = ({ identifier }) => {
   return (
     <div className='container w-full p-6 mx-auto my-16 border-2 border-gray-300 group rounded-xl md:max-w-3xl'>
-      <h1 className='p-4 text-xl font-semibold leading-relaxed text-center text-gray-700 sm:text-2xl'>
+      <h1
+        className='p-4 text-xl font-semibold leading-relaxed text-center text-gray-700 sm:text-2xl'
+        id={identifier}
+      >
         {contents[identifier].title}
       </h1>
       <div className='flex flex-col'>

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import * as BiIcons from 'react-icons/bi';
+
 const Background = () => {
   return (
     <div className='sm:text-lg'>
@@ -37,7 +39,58 @@ const Background = () => {
         </div>
         <div className='mt-2 leading-relaxed text-left text-gray-700'>
           <span className='mr-4 text-xs align-text-top'>&#x25CF;</span>
-          Published 6 research papers with 3 more under review
+          Published 4 research{' '}
+          <a className='text-blue-700 underline' href='#projects'>
+            papers
+          </a>{' '}
+          with 3 more under review
+        </div>
+        <div className='leading-relaxed text-left text-gray-700'>
+          <span className='ml-8 mr-4 text-xs align-text-top'>&#x25CB;</span>
+          Knowledge Diversification in Ensembles of Identical Neural Networks
+          <a className='ml-1 text-sm text-gray-800 align-top' href='#paper1'>
+            <BiIcons.BiLinkExternal className='inline-block align-text-top' />
+          </a>
+        </div>
+        <div className='leading-relaxed text-left text-gray-700'>
+          <span className='ml-8 mr-4 text-xs align-text-top'>&#x25CB;</span>
+          Edge-aware Image Super-resolution using a Generative Adversarial
+          Network
+          <a className='ml-1 text-sm text-gray-800' href='#paper2'>
+            <BiIcons.BiLinkExternal className='inline-block align-text-top' />
+          </a>
+        </div>
+        <div className='leading-relaxed text-left text-gray-700'>
+          <span className='ml-8 mr-4 text-xs align-text-top'>&#x25CB;</span>
+          Adaptive CNN Filter Pruning using Global Importance Metric
+          <a className='ml-1 text-sm text-gray-800' href='#paper3'>
+            <BiIcons.BiLinkExternal className='inline-block align-text-top' />
+          </a>
+        </div>
+        <div className='leading-relaxed text-left text-gray-700'>
+          <span className='ml-8 mr-4 text-xs align-text-top'>&#x25CB;</span>
+          Graph-based Depth Estimation in a Monocular Image using Constrained 3D
+          Wireframe Models
+          <a className='ml-1 text-sm text-gray-800' href='#paper4'>
+            <BiIcons.BiLinkExternal className='inline-block align-text-top' />
+          </a>
+        </div>
+        <div className='mt-2 leading-relaxed text-left text-gray-700'>
+          <span className='mr-4 text-xs align-text-top'>&#x25CF;</span>
+          Projects
+        </div>
+        <div className='leading-relaxed text-left text-gray-700'>
+          <span className='ml-8 mr-4 text-xs align-text-top'>&#x25CB;</span>
+          Characterizing the Evolution of Embedding Space of Neural Networks
+          using Algebraic Topology
+        </div>
+        <div className='leading-relaxed text-left text-gray-700'>
+          <span className='ml-8 mr-4 text-xs align-text-top'>&#x25CB;</span>
+          Model agnostic evaluation of transferability of pre-trained deep model
+        </div>
+        <div className='leading-relaxed text-left text-gray-700'>
+          <span className='ml-8 mr-4 text-xs align-text-top'>&#x25CB;</span>
+          High Frame Rate Object Detection using Fast Fourier Transform
         </div>
       </div>
       <div className='flex flex-col max-w-4xl mx-auto mt-12 justify-left'>
