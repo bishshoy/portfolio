@@ -40,7 +40,10 @@ const Background = () => {
         <div className='mt-2 leading-relaxed text-left text-gray-700 sm:ml-1'>
           <span className='mr-4 text-xs align-text-top'>&#x25CF;</span>
           Published 4 research{' '}
-          <a className='text-blue-700 underline' href='#projects'>
+          <a
+            className='text-blue-600 underline hover:text-blue-400'
+            href='#projects'
+          >
             papers
           </a>{' '}
           and 3 more under review
@@ -48,7 +51,7 @@ const Background = () => {
         <div className='leading-relaxed text-left text-gray-700 sm:ml-1'>
           <span className='ml-8 mr-4 text-xs align-text-top'>&#x25CB;</span>
           Knowledge Diversification in Ensembles of Identical Neural Networks
-          <a className='text-sm text-gray-800 align-top sm:ml-1' href='#paper1'>
+          <a className='text-sm text-black align-top sm:ml-1' href='#paper1'>
             <BiIcons.BiLinkExternal className='inline-block align-text-top' />
           </a>
         </div>
@@ -56,14 +59,14 @@ const Background = () => {
           <span className='ml-8 mr-4 text-xs align-text-top'>&#x25CB;</span>
           Edge-aware Image Super-resolution using a Generative Adversarial
           Network
-          <a className='text-sm text-gray-800 sm:ml-1' href='#paper2'>
+          <a className='text-sm text-black sm:ml-1' href='#paper2'>
             <BiIcons.BiLinkExternal className='inline-block align-text-top' />
           </a>
         </div>
         <div className='leading-relaxed text-left text-gray-700 sm:ml-1'>
           <span className='ml-8 mr-4 text-xs align-text-top'>&#x25CB;</span>
           Adaptive CNN Filter Pruning using Global Importance Metric
-          <a className='text-sm text-gray-800 sm:ml-1' href='#paper3'>
+          <a className='text-sm text-black sm:ml-1' href='#paper3'>
             <BiIcons.BiLinkExternal className='inline-block align-text-top' />
           </a>
         </div>
@@ -71,7 +74,7 @@ const Background = () => {
           <span className='ml-8 mr-4 text-xs align-text-top'>&#x25CB;</span>
           Graph-based Depth Estimation in a Monocular Image using Constrained 3D
           Wireframe Models
-          <a className='text-sm text-gray-800 sm:ml-1' href='#paper4'>
+          <a className='text-sm text-black sm:ml-1' href='#paper4'>
             <BiIcons.BiLinkExternal className='inline-block align-text-top' />
           </a>
         </div>
@@ -86,7 +89,8 @@ const Background = () => {
         </div>
         <div className='leading-relaxed text-left text-gray-700 sm:ml-1'>
           <span className='ml-8 mr-4 text-xs align-text-top'>&#x25CB;</span>
-          Model agnostic evaluation of transferability of pre-trained deep model
+          Model Agnostic Evaluation of Transferability of Pre-Trained Deep
+          Models
         </div>
         <div className='leading-relaxed text-left text-gray-700 sm:ml-1'>
           <span className='ml-8 mr-4 text-xs align-text-top'>&#x25CB;</span>
