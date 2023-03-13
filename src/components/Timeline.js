@@ -34,8 +34,8 @@ const contents = [
     date: 'Dec 2022',
   },
   {
-    title: 'MFIRP Project, IIT Delhi',
-    description: 'Topological Analysis of Neural Networks',
+    title: 'Won MFIRP Project Grant, IIT Delhi',
+    description: 'for Topological Analysis of Neural Networks',
     date: 'Jan 2022',
   },
   {
@@ -45,27 +45,29 @@ const contents = [
   },
   {
     title: 'Joined IIT Delhi',
-    description: 'Doctoral Candidate',
+    description: 'pursuing PhD in Deep Learning',
     date: 'Jan 2022',
   },
   {
     title: 'NVIDIA - System Software Engineer',
-    description: 'Development of CameraAPI for Tegra SOCs',
+    description:
+      'Developed Camera APIs and low level linux libraries for Tegra SOCs',
     date: 'Jul 2016 - Nov 2016',
   },
   {
-    title: 'Masters - IIT Guwahati',
-    description: 'Signal Processing',
+    title: 'Masters of Technology - IIT Guwahati',
+    description: 'Studied Signal Processing',
     date: 'Jul 2014',
   },
   {
     title: 'GATE Entrance Exam',
-    description: 'AIR 500 - (99.77 %ile)',
+    description: 'Ranked 500 - (99.77 %ile) out of 216,367 candidates',
     date: '2014',
   },
   {
-    title: 'Bachelors - Heritage Institute of Technology',
-    description: 'Electronics and Communication Engineering',
+    title: 'Bachelors of Technology',
+    description:
+      'Electronics and Communication Engineering from Heritage Institute of Technology, Kolkata',
     date: '2009 - 2013',
   },
 ];
