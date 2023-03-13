@@ -57,7 +57,7 @@ const contents = {
       SiIcons.SiNumpy,
       SiIcons.SiPowershell,
     ],
-    texts: ['PIL', 'scikit-learn', 'Numpy', 'bash'],
+    texts: ['PIL', 'scikit-learn', 'NumPy', 'bash'],
     lines: [
       'Proficient in a variety of Python libraries',
       'and shell scripting for automation',
@@ -70,9 +70,9 @@ const contents = {
       FaIcons.FaLinux,
       <Icon icon='file-icons:latex' className='inline-block text-4xl' />,
     ],
-    texts: ['git', 'Docker', 'Linux', 'LaTeX'],
+    texts: ['Git', 'Docker', 'Linux', 'LaTeX'],
     lines: [
-      'Proficient in git',
+      'Proficient in Git',
       'Have used Docker containers for deployment',
       'Proficient in LaTeX for research writing',
       'Can troubleshoot Linux systems',
